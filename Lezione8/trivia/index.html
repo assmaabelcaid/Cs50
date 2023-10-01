@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <title>Trivia!</title>
+        <script>
+            document.addEventListener("DOMContentLoaded", function()
+            {
+                let corretto = document.querySelector(".corretto");
+                corretto.addEventListener("click", function(){
+                    corretto.style.backgroundColor = "green";
+                    document.querySelector("#answer1").innerHTML = "cORRETTO!";
+                });
+                let incorretto = document.querySelectorAll(".incorretto");
+                for(let i = 0; i < incorretto.length; i++)
+                {
+                    incorretto[i].addEventListener("click", function(){
+                        incorretto[i].style.backgroundColor="red";
+                        document.querySelector("#answer1").innerHTML = "Scorretto";
+                    });
+                }
+                document.querySelector("#controlla").addEventListener ("click", function(){
+                    let input = document.querySelector("input");
+                    if(input.value.toLowerCase() == "pablo") {
+                        input.style.backgroundColor = "green";
+                        document.querySelector("#answer2").innerHTML = "Corretto";
+                    } else {
+                        input.style.backgroundColor = "red";
+                        document.querySelector("#answer2").innerHTML = "Scorretto";
+                    }
+                });
+            });
+
+            // TODO: Add code to check answers to questions
+        </script>
+    </head>
+    <body>
+        <div class="header">
+            <h1>Trivia!</h1>
+        </div>
+
+        <div class="container">
+            <div class="section">
+                <h2>Part 1: Scelta multipla </h2>
+                <hr>
+                <h3> Qual è il nome di tua mamma? </h3>
+                <button type="text" class="incorretto"> Mi moder? Haw Der yu?</button>
+                <button type="text" class="incorretto"> Uagliò! </button>
+                <button type="text" class="incorretto"> Guendalina </button>
+                <button type="text" class="incorretto"> Mamma </button>
+                <button type="text" class="corretto"> Bellissima *heart eyes emoji* </button>
+
+                <p id="answer1"></p>
+
+                <!-- TODO: Add multiple choice question here -->
+            </div>
+
+            <div class="section">
+                <h2>Part 2: Risposta libera</h2>
+                <hr>
+                <h3>Come si chiama tuo papà?</h3>
+                <form; return false>
+                    <input type"text" placeholder "Nome">
+                    <button id="controlla">Controlla la risposta</button>
+
+                    <p id="answer2"></p>
+
+                </form>
+                <!-- TODO: Add free response question here -->
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,114 @@
+@import url("https://fonts.google.com/specimen/Barlow+Condensed");
+
+body {
+  font-family: Barlow Condensed, sans serif;
+
+}
+h2{
+  margin-top: 0;
+  font-weight: 200;
+  height: 36px;
+  margin-bottom: 6px;
+}
+
+h3{
+  margin-top: 0;
+  font-weight: 900;
+}
+
+.container {
+  max-width: 1080px;
+  max-height:0px;
+  margin: auto;
+  text-align: center;
+  padding: 28px;
+}
+
+
+.card{
+  border: 2px;
+  border-color: #ebebeb;
+  background-color: white;
+  display: inline-block;
+  max-width: 200px;
+  border-radius: 6px;
+  overflow: visible;
+  cursor: pointer;
+  box-shadow: 0px 6px 12px -6px rgba(0, 0, 0, 0.2);
+  padding: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.card-image img{
+  max-width: 50%;
+  height: auto;
+}
+
+.card-body{
+  padding: 16px;
+}
+
+.icon{
+  margin-top: 12px;
+}
+
+.ingredients{
+  margin: 0;
+  letter-spacing: 0.6px;
+  line-height: 1.6;
+}
+
+.list{
+  color: #55555550;
+}
+
+.time{
+  margin-top: 24px;
+  letter-spacing: 0.6px;
+
+}
+
+.badge{
+  padding: 4px;
+  background-color: #111111;
+  color: white;
+  border-radius: 3px;
+  font-size: 13px;
+}
+
+.card:hover{
+  box-shadow: 0px 12px 24px -8px rgba(0, 0, 0, 20);
+  transform: scale(1.1);
+  transition: all 0.150s;
+  border: black solid;
+  border-width: thick;
+}
+
+.a{
+color:#111111;
+text-decoration: none;
+}
+
+.a:hover{
+  color:#111111;
+  }
+
+.hyperlink{
+  color: white;
+  font-style: italic;
+  padding: 4px;
+  background-color: #7b4242;
+  border-radius: 3px;
+  font-size: 13px;
+}
+
+
+.hyperlink:hover{
+  box-shadow: 0px 12px 24px -8px rgba(0, 0, 0, 20);
+  text-shadow: green;
+  transition: all 0.150s;
+  border: green solid;
+  border-width: medium;
+  cursor: pointer;
+}

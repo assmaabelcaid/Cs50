@@ -1,0 +1,12 @@
++--------+----------------+-----------+---------------+--------+-------+----------------+-----------------+---------------+
+|   id   | account_number | person_id | creation_year |   id   | name  |  phone_number  | passport_number | license_plate |
++--------+----------------+-----------+---------------+--------+-------+----------------+-----------------+---------------+
+| 686048 | 49610011       | 686048    | 2010          | 686048 | Bruce | (367) 555-5533 | 5773159633      | 94KL13X       |
+| 514354 | 26013199       | 514354    | 2012          | 514354 | Diana | (770) 555-1861 | 3592750733      | 322W7JE       |
++--------+----------------+-----------+---------------+--------+-------+----------------+-----------------+---------------+
+
+Persone che hanno preso dei soldi dall'atm, sono andati alla bakery, hanno lasciato con una macchina entro 10 minuti dal crimine, hanno chiamato un numero e
+hanno preso un volo il giorno dopo
+
+1 di loro due è l'indiziato, il complice è chi hanno chiamato
+
