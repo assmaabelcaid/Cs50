@@ -1,0 +1,5 @@
+ordine
+quanti 25 ci stanno, quanti 10 poi 5 poi 1
+if n/25 returns % è diverso da 0 allora go con 10,
+if result n/25 /10 % diverso da 0 allora 5 e così via
+if result = 0 allora loop

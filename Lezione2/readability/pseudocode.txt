@@ -1,0 +1,12 @@
+allora
+funzione che riconosce le lettere come caratteri.
+funzione che riconosce le parole dopo lo spazio, il punto, la virgola e i pubnti esclamatii e interrogativi
+funzione che riconosce le frasi dopo punto, ! e ?
+definirle nel main
+tipo è int perchè con getstring devo trasformare il loro input in int
+string input = getsrting
+
+isspace - check whether a character is whitespace
+strlen - calculate the length of a string
+
+If the resulting index number is 16 or higher (equivalent to or greater than a senior undergraduate reading level), your program should output "Grade 16+" instead of giving the exact index number. If the index number is less than 1, your program should output "Before Grade 1".

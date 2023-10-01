@@ -1,0 +1,22 @@
+PRoviamo a pensarci insieme
+risultato:
+            #
+            ##
+            ###
+            ####
+
+programma deve dire: input=1 : #
+=2 #
+break
+##
+
+if 1 allora 1 quadrato, if 2 1 q + 2 q, if 3 1q +2q+3q (+=break)
+variabile q= #
+input della persona (get_number)
+for
+    print q:
+    break
+    if getnumber >1
+    for (int q, q<8)
+    print salsa= q + q++ (break)
+    print salsa++

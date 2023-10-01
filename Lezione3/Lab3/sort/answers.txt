@@ -1,0 +1,48 @@
+sort1 uses: bubble sort
+
+How do you know?: in the random selection it takes the most time, except for the sorted.
+unsorted
+real    0m8.231s
+user    0m6.929s
+sys     0m0.227s
+sorted
+real    0m0.602s
+user    0m0.020s
+sys     0m0.208s
+reversed
+real    0m5.837s
+user    0m5.104s
+sys     0m0.233s
+
+sort2 uses: Merge sort
+
+How do you know?: It takes the smallest time so it's the fastest
+
+unsorted
+real    0m0.935s
+user    0m0.041s
+sys     0m0.214s
+sorted
+real    0m0.685s
+user    0m0.047s
+sys     0m0.188s
+reversed
+real    0m0.624s
+user    0m0.036s
+sys     0m0.198s
+
+sort3 uses: selection sort
+
+How do you know?: The time between the three tests are almost equal.
+unsorted
+real    0m3.486s
+user    0m2.723s
+sys     0m0.183s
+sorted:
+real    0m3.759s
+user    0m2.770s
+sys     0m0.188s
+reversed
+real    0m3.415s
+user    0m2.679s
+sys     0m0.255s
