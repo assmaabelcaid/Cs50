@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Party Phil! </title>
+    <!--iconscout icons-->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.1.6/css/unicons.css">
+    <!--google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@800&family=Poppins:ital,wght@0,500;0,700;1,300&display=swap">
+    <!--ref to sound on click script-->
+    <script type="text/javascript" src="sound-on-click.js"></script>
+
+    <!--Stylesheet-->
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+<body class="fade">
+        <nav>
+            <div class="container">
+                <ul>
+                <a href="welcome.html"><img class="logo" src="./media/logo.png"></a>
+                </ul>
+                <ul>
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="#party" >Introduction Video</a></li>
+                    <li><a href="#wii-party" >Wii Party</a></li> <!-- this takes us to the section of the same page that will be called products instead of a new page-->
+                    <li><a href="#party-phil">Party Phil</a></li>
+                    <li><a href="fan-blog.html">Fan Blog</a></li>
+                </ul>
+                <ul class="icons">
+                    <li><a class="uil uil-heart" title="Credits" href="fan-blog.html #Credits"></a>
+                        </li> <!--icons that i need are from google icons-->
+                    <li><a class="uil uil-home" title="Home" href="index.html"></a></li>
+                    <li><a class="uil uil-phone" title="Contact Us" href="#contact-us"></a></li>
+                </ul>
+
+                <button id="menu-btn"> <!--here there will be buttons for the lateral menu on the mobile version-->
+                    <i class="uil uil-bars">menu</i> <!--click to open menu-->
+                </button>
+                <button id="close-btn">
+                    <i class="uil uil-multiply">close</i> <!-- click to close menu-->
+                </button>
+            </div>
+        </nav>
+        <!-------------------------- fine della barra nav!!!-------------------------------->
+        <header>
+            <div class="container">
+                <div class="info">
+                    <div class="delivery">
+                        <i class="uil uil-star"></i>
+                        <small>Unofficial Fanclub</small> 
+                        <i class="uil uil-star"></i>
+                    </div>
+                    <h1>Welcome to Wii Party Phil!</h1>
+                    <p>
+                        "Wii Party star, actor, MC, comedian and professional entertainer." - Shigeru Miyamoto
+                    </p>
+                    <div class="cta">
+                        <a href="#party" class="btn btn-primary"> Learn More </a>
+                        <a href="javascript:playclip();"><img src="./media/pointer_ruotato.png"><br>Click to hear my line!
+                            <audio>
+                                <source src="./media/party_phil_line.mp3" type="audio/mpeg">
+                                <source src="./media/party_phil_line.ogg" type="audio/ogg">
+                                </audio>
+                        </a> </div>
+                    </div>
+                <div class="details">
+                    <img src="./media/Wii_Party_logo.svg">
+                </div>
+                <div class="header-image"> 
+                    <img src="./media/Party_Phil_header.jpg">
+                </div>
+            </div>
+        </header>
+        <!-------------------------- fine del header-------------------------------->
+            <table class="container-video-party">
+                <tr id="party">
+                    <td>
+                        <img src="./media/shadow.png">
+                    </td>
+                    <td class="party">
+                        <div class="title-party">
+                        <h2>Watch the original intro!</h2>
+                        </div>
+                    <div>
+                        <video position="relative" src="./media/wiiparty-video.mp4" type="video/mp4" controls loop>
+                        </video>
+                    </div>
+                    </td>
+                    <td>
+                        <img src="./media/shadow_opp.png">
+                    </td>
+                </tr>
+            </table>   
+            <!----------------------FINE DEL VIDEO |----------------------------->
+        <section id="wii-party">
+            <div class="container">
+                <h1>What's Wii Party</h1> 
+                <p> 
+                    <br>
+                    Wii Party is a party game developed by NDcube and Nintendo and published by Nintendo in 2010 for the Wii. 
+                    It is a game that features gameplay that often needs more than two players. 
+                    It's a family and friends game in the Wii Series (Wii Sports, Wii Play, Wii Music)
+                </p> 
+                <article> 
+                    <div>
+                        <img src="./media/globe_trot.jpg">
+                    </div> 
+                    <div class="info"> 
+                        <h2>Conquer the world with Globe Trot!</h2>
+                        <p> 
+                            Players have to travel around the World to visit Hot Spots and collect souvenir photos. <br> The player who has the most at the end of the game wins. 
+                        </p>
+                    </div> 
+                </article> 
+                <article>  
+                    <div class="info"> 
+                        <h2>Test your compatibility with a Friend!</h2>
+                        <p> 
+                            Friend Connection is a Pair Game mode for 2 players in Wii Party.
+                            In this game, you have to answer five questions and playa Pair Minigame (ranked A, B, C or D) to test if the players are the best or the worst pair. </p>
+                        </p>
+                    </div> 
+                    <div>
+                        <img src="./media/friend connection.png">
+                    </div>
+                </article> 
+                <article> 
+                    <div>
+                        <img src="./media/moon_landing.png">
+                    </div> 
+                    <div class="info"> 
+                        <h2>Play minigames and win first place!</h2>
+                        <p> 
+                            Wii party offers a total of 87 games. Play against other 3 Player, 1 vs 3 , 1 vs 1, pair and Challenge Minigames.
+                        </p>
+                    </div> 
+                </article> 
+            </div> 
+        </section> 
+        <!----------------------FINE DEL WII PARTY |----------------------------->
+    <section id="party-phil">
+        <span class="title-phil">
+            <h1>Who's Party Phil?</h1> <br>
+            <p>Read some amazing facts about the true star of Wii Party!</p>
+        </span>
+        <section class="container-slide">
+            <div class="card" id="1">
+              <div class="image">
+                <img src="media/tpose-icon.png" style="width: 200px;"/>
+              </div>
+              <div>
+            <h2>Party Phil in the game</h2>  
+            <p>Party Phil, known as Woopy in the Japanese version of the first Wii Party, is a Tute. He is the host of Wii Party and the co-host of Wii Party U, alongside his younger sister: Party Penny.
+                The player will first encounter Phil when they first start the game for the first time. He will introduce the player to the game.</p>
+            </div> 
+            <div>        
+            <div class="button-left">
+                <a href="#wii-party"><button class="btn btn-primary"> Go back to Wii Party </button></a>
+            </div> 
+            <div class="button-right">
+                <a href="#2"><button class="btn btn-primary"> Go to the Next Page </button></a>
+            </div> 
+            </div>
+            </div>
+            <div class="card">
+                <div class="image">
+                  <img src="media/Party_Phil.jpg" width="100px"/>
+                </div>
+                <div id="2">
+                <h2 >Suggestions</h2>  
+              <p>At the start of every game mode, Phil will ask you if you want to watch the tutorial on how to play the game mode and if you say yes, Party Phil will begin explaining that mode's rules. He also constantly appears throughout Wii Party's various game modes providing commentary on what is happening or going to happen. For example, in Board Game Island, Party Phil Picks what the next minigame will be until later on when he instead chooses 3 minigames for the last place Mii to pick from.
+                There is also a Suggestions button where Party Phil will give suggest game modes to the player/s based on how many people are playing and how long they intend to play for.</p>
+              </div>
+              <div> 
+              <div  class="button-left">
+                <a href="#1"><button class="btn btn-primary"> Go Back to the Previous Page </button></a>
+            </div> 
+            <div  class="button-right">
+                <a href="#3"><button class="btn btn-primary"> Go to the Next Page </button></a>
+            </div>          
+              </div>
+            </div>
+            <div class="card" id="3">
+                <div class="image">
+                  <img src="media/penny.png"/>
+                </div>
+                <div>                
+              <h2>Wii U Saga</h2>
+              <p>In Wii Party U, Party Phil's role is the same as Wii Party. However, this time we are introduced to Party Phil's younger sister: Party Penny. Party Penny liberates Party Phil from his hosting duties for the game's minigame-centric modes.</p>
+              </div> 
+              <div  class="button-left">
+                <a href="#2"><button class="btn btn-primary"> Go Back to the Previous Page </button></a>
+            </div>  
+            </div>  
+           </section>
+        </section>
+            <!-----------------------------------------------END OF PARTY PHIL------------------------->
+            <footer>
+                <div class="container">
+                    <div class="f2">
+                        <h4>Permalinks</h4>
+                        <ul>
+                            <li><a href="index.html" class="active">Home</a></li>
+                            <li><a href="#party" >Introduction Video</a></li>
+                            <li><a href="#wii-party" >Wii Party</a></li> <!-- this takes us to the section of the same page that will be called products instead of a new page-->
+                            <li><a href="#party-phil">Party Phil</a></li>
+                            <li><a href="fan-blog.html">Fan Blog</a></li>
+                            <li><i class="uil uil-heart"></i><a href="fan-blog.html #Credits">Credits</a><i class="uil uil-heart"></i></li>
+                        </ul>
+                    </div>
+                    <div class="f3" id="contact-us">
+                        <h4><i class="uil uil-phone"></i>Contact Us</h4>
+                            Assmaa Belcaid <br>
+                            assmaa.belcaid@gmail.com
+                    </div>
+                    <div class="f4">
+                        <h4>Copyright</h4>
+                        <small>Copyright © Assmaa Belcaid <br>
+                        Any reproduction or copy is strictly prohibited</small>
+                    </div>
+                </div>
+            </footer>
+            <!------------END OF FOOTER------------------------>
+    </body>
+</html>
+    

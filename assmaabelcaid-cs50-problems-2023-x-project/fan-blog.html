@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Party Phil! </title>
+    <!--iconscout icons-->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.1.6/css/unicons.css">
+    <!--google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@800&family=Poppins:ital,wght@0,500;0,700;1,300&display=swap">
+
+    <!--Stylesheet-->
+    <link rel="stylesheet" href="./style-club.css">
+    <!--script pop up-->
+    <script type="text/javascript" src="popup.js"></script> 
+</head>
+
+<body class="fade">
+  <nav>
+      <div class="container">
+          <ul>
+          <a href="welcome.html"><img class="logo" src="./media/logo.png"></a>
+          </ul>
+          <ul>
+              <li><a href="index.html" >Home</a></li>
+              <li><a href="index.html #party" >Introduction Video</a></li>
+              <li><a href="index.html #wii-party" >Wii Party</a></li> <!-- this takes us to the section of the same page that will be called products instead of a new page-->
+              <li><a href="index.html #party-phil">Party Phil</a></li>
+              <li><a href="fan-blog.html" class="active">Fan Blog</a></li>
+          </ul>
+          <ul class="icons">
+              <li><a class="uil uil-heart" title="Credits" href="#Credits"></a>
+                  </li> <!--icons that i need are from google icons-->
+              <li><a class="uil uil-home" title="Home" href="index.html"></a></li>
+              <li><a class="uil uil-phone" title="Contact Us" href="#contact-us"></a></li>
+                </ul>
+
+          <button id="menu-btn"> <!--here there will be buttons for the lateral menu on the mobile version-->
+              <i class="uil uil-bars">menu</i> <!--click to open menu-->
+          </button>
+          <button id="close-btn">
+              <i class="uil uil-multiply">close</i> <!-- click to close menu-->
+          </button>
+      </div>
+  </nav>
+        <!-------------------------- fine della barra nav!!!-------------------------------->
+      
+  <header>
+    <h2> <i class="uil uil-star"></i> Unofficial Party Phil Fanclub <i class="uil uil-star"></i></h2>
+  </header>
+  <section class="row" id="table">
+    <div class="leftcolumn">
+        <div class="card">
+          <h3>General Announcement</h3>
+          <h5>FanCafè, January 7, 2023</h5> <br>
+          <div>Happy New Year everyone!<br> <br>
+            In the previous months we have organized our Fanclub activity to reflect your needs and requests.
+            Here's a MAJOR update: 
+            <p>
+              <ul>
+                <li class="lista">You will find in the calendar weekly missions that we have shared with our admins. The following are: </li>
+                <li class="lista">Weekly post on Monday, so that we can keep this site alive:</li>
+                <li class="lista">Every two weeks you'll find the FanCafè, which is our in person meeting at the [redacted] Cafè. You'll be admitted only if you're a premium member.</li>
+                <li class="lista">Every two weeks you'll find the Fanclub Activities, which is a list of all news, events plans and updates on prvious meetings;</li>
+                <li class="lista">Every last Thurday of the Month we'll organize a Monthly Budget Meeting, where we'll talk with our admins and bursar on the balance that we have spent (more this than others), the gain though projects and what we can afford to do for the rest of the fans;</li>
+                <li class="lista">Every three Fridays you'll find a Q & A session, where we'll listen to your questions and resolve some doubts. REMINDER: you can partecipate by adding the event on your calendar, but you'll be only admitted to speak if you are a premium member. If not, your webcam and microphone will be deactivated.</li>
+              </ul>                 
+            </p>
+          </div>
+            That is all for our announcements, hope everything is clear!<br>
+            If not please contact us on: support@unofficial-fanclub-party-phil.com. <br>
+            Thank you! 
+        </div>
+        <div class="card">
+          <h3>Wii Party U</h3>
+          <h5>Next Competition, Oct 25, 2022</h5>
+          <div class="image"><img src="./media/wiiparty.jpg"></div>
+            <p>We are in the middle of organizing our annual Wii Party U competion!
+              <br>
+              The event will be taken place on the 12/12/2023. 
+              Please Subsribe to our calendar so that we can send you more information on the location, the activities and the schedule.
+            </p>
+        </div>
+        <div class="card">
+            <h3>Nintendo Update</h3>
+            <h5>No more Updates for Wii Party, Sep 7, 2022</h5>
+              <div class="image"><img src="./media/wii-party-background.jpg"></div>
+              <p>Nintendo has released that the Wii Party game will no longer receive updates from the Wii Shop.
+                <br>
+                This signs the official death of the game, RIP everyone.
+              </p>
+        </div>
+    </div>
+            <!---------------------------Fine Colonna Destra------------------->
+      <div class="rightcolumn">                
+        <div class="card-left">
+            <img src="./media/barra.jfif">
+            <h3>Calendar</h3> </a>
+            <button onclick="togglePopup()">Click here expand</button>
+            <!--Google Calendar-->
+            <iframe src="https://embed.styledcalendar.com/#6C2FROUygNEvORfRzHQp" title="Styled Calendar" class="styled-calendar-container" style="width: 100%; border: none;" ></iframe>
+            <script async type="module" src="https://embed.styledcalendar.com/assets/parent-window.js"></script>
+            <div class="card-left" id="Credits">
+              <h3> <i class="uil uil-heart"></i> About Me <i class="uil uil-heart"></i></h3>
+              <div>
+                <img src="./media/logo.jpg" class="image-icon">
+              </div>
+              I'm the unofficial leader of the Party Phil funclub. <br>
+              I like to create art pieces that are bright in color and because of that I designed this website. <br>
+              Please help I want to finish this project soon I'm so tired don't keep me in the dungeon.
+            </div>
+            <div class="card-left">
+              <h3>Credits</h3>
+              Assmaa Belcaid (aka me) for all the effort.<br>
+              Credits to images and apis to the internet.
+                <br> 
+              And thank you CS50 for all your material and excercises! It was fun but tiring!!!               
+            </div>
+        </div>            
+      </div>
+         <!---------------------------Fine Colonna Sinistra------------------->
+    
+            <!-----------------------------------------------END OF POP UP------------------------->
+      <footer>
+        <div class="container">
+          <div class="f2">
+            <h4>Permalinks</h4>
+              <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="#party" >Introduction Video</a></li>
+                <li><a href="#wii-party" >Wii Party</a></li> <!-- this takes us to the section of the same page that will be called products instead of a new page-->
+                <li><a href="#party-phil">Party Phil</a></li>
+                <li><a href="fan-blog.html">Fan Blog</a></li>
+                <li><i class="uil uil-heart"></i><a href="#Credits">Credits</a><i class="uil uil-heart"></i></li>
+              </ul>
+          </div>
+          <div class="f3" id="contact-us">
+            <h4><i class="uil uil-phone"></i>Contact Us</h4>
+                Assmaa Belcaid <br>
+                assmaa.belcaid@gmail.com
+          </div>
+          <div class="f4">
+            <h4>Copyright</h4>
+              <small>Copyright © Assmaa Belcaid <br>
+                Any reproduction or copy is strictly prohibited
+              </small>
+          </div>
+        </div>
+      </footer>
+  </section>
+          <!------------END OF FOOTER------------------------>
+  <div class="popup" id="popup-1">
+    <div class="overlay">
+      <div class="content">
+      <div class="close-btn" onclick="togglePopup()"> X </div>
+      <iframe src="https://embed.styledcalendar.com/#6C2FROUygNEvORfRzHQp" title="Styled Calendar" class="styled-calendar-container" style="width: 100%; border: none;" ></iframe>
+      <script async type="module" src="https://embed.styledcalendar.com/assets/parent-window.js"></script>
+      </div>
+    </div>
+  </div> 
+</body>
+</html>
